@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Task</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        nav {
+            height: 10vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 8vw;
+        }
+
+        li {
+            display: inline;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #soylent {
+            padding: 8px;
+            font-weight: 700;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        #li:hover {
+            background-color: peachpuff;
+
+        }
+
+
+        main {
+            background-color: peachpuff;
+            width: 86vw;
+            margin-left: 8vw;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #myimg {
+            height: 10rem;
+        }
+
+        #para{
+            width: 22rem;
+            font-size: small;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+
+            
+        }
+
+            #mybtn{
+                background-color: orangered;
+                color: white;
+                font-weight: 700;
+                border-radius: 5px;
+                padding: 5px;
+                border: 1px solid rgb(rgb(120, 41, 41), green, rgb(165, 165, 199));
+                box-shadow: 3px 3px 1px 1px black;
+            }
+
+            #footnote{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                margin-left: 20vw;
+                font-size: smaller;
+            }
+
+
+
+
+    </style>
+
+
+    <nav>
+
+
+        <div class="menu">
+            <ul>
+                <li id="soylent">Soylent</li>
+                <li>Drinks</li>
+                <li>Cafe</li>
+                <li>Powder</li>
+                <li>All Products</li>
+            </ul>
+
+
+
+        </div>
+
+        <div class="Activites">
+
+            <ul>
+                <li>Login</li>
+                <li>Refer</li>
+                <li>Cart</li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="Fruits">
+
+            <img src="./chris-dez-t2ZIt-WNXrk-unsplash.jpg" id="myimg" alt="">
+
+        </div>
+
+
+
+        <div class="content">
+            <h1>Fruit is back</h1>
+            <p id="para">Soylent Straberry is like the  strawberry milk you love as a kid -but it has 20g of protein,20% of
+                your daily recomended micronutrients and your mom dosen't have to make it for you. </p>
+            <p></p>
+            <button id="mybtn">Show now</button>
+        </div>
+
+    </main>
+
+
+        <p id="footnote">Now two bottles to serve you. <a href="">Click here</a> to learn more about Our new bottles.</p>
+    
+    <hr>
+
+
+
+
+
+
+</body>
+
+</html>
